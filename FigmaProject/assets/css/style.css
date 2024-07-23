@@ -393,4 +393,42 @@ body{
 .column{
     flex-direction: column;
 }
+/* .marketing{
+    width: 1110px;
+    height: 124px;
+}
+.marketing h2{
+    font-family: Inter;
+    line-height: 44px;
+    color:#4D4D4D;
+    font-size: 36px;
+    weight: 600;
+}
+/* .marketibg-p{
+    width: 628px;
+    height: 72px;
+} */
+/* .marketing-p{
+    width: 628px;
+    height: 72px; */
+/* } */
+.marketing{
+    align-items: center;
+}
 
+.marketing h2{
+    text-align: center;
+    color: #4D4D4D;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.marketing p{
+    text-align: center;
+    width: 628px;
+    height: 72px;
+    margin: auto;
+    /* font-size: 16px;
+    line-height: 24px;
+    font-weight: 400; */
+}

@@ -1,0 +1,396 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+.clients-section .container{
+    width: 80%;
+    margin: auto;
+    padding: 50px 0;
+    text-align: center;
+}
+.clients-section h2{
+    color: #4D4D4D;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+}
+.clients{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.clients img{
+
+    width: 48px;
+    height: 48px;
+}
+
+.menu-toggle{
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin-left: 15px;
+    display: none;
+}
+.menu-toggle img{
+    width: 100%;
+    height: 100%;
+    
+}
+@media(max-width:992px){
+    .container{
+        width: 95% !important;
+    }
+    .navbar-menu{
+        display: none;
+    }
+    .menu-toggle{
+        display: inline-block;
+    }
+    .logo{
+        width: 120px;
+        height: 20px;
+    }
+    .login-btn,.signup-btn{
+        font-size: 12px;
+    }
+    .login-btn{
+        width: 60px;
+    }
+    .signup-btn{
+        width: 80px;
+    }
+    .main-header .container{
+
+        flex-direction: column;
+    }
+    .main-header-content,.main-header-img{
+        width: 100%;
+    }
+    .main-header-content h1{
+        font-size: 40px;
+        line-height: 56px;
+    }
+    .main-header-btn{
+        height: 40px;
+        width: 140px;
+    }
+    .main-header-img img{
+        width: 80%;
+    }
+    .main-header-img{
+        margin-top: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .clients{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+    .clients img{
+        width: 80px;
+        height: 80px;
+    }
+}
+.scroll{
+    position: fixed;
+    top: 0;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;;
+}
+.mobile-menu{
+    position: fixed;
+    
+    background-color: #4D4D4D;
+    height: 100%;
+    padding: 20px;
+    left: -100px;
+    z-index: 100;
+    width: 0;
+    transition: all .3s ease-in-out;
+}
+.mobile-menu ul{
+    list-style: none;
+}
+.mobile-menu ul li{
+    width: 100%;
+    color: #fff;
+    padding: 20px 0;
+    font-weight: 500;
+}
+.open-menu{
+    width: 60% !important;
+    left: 0 !important;
+}
+.nav-close{
+    position: absolute;
+    height: 84px;
+    z-index: 0;
+}
+.up-arrow{
+    position: fixed;
+    bottom: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    display: none;
+    right: 30px;
+}
+
+
+.manage-community h2{
+    color: #4D4D4D;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    padding-bottom: 20px;
+}
+
+.container2{
+    width: 37%;
+    margin: auto;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.text{
+    color: #717171;
+
+}
+
+.nextcent-sections{
+    width: 80%; 
+    display: flex; 
+    margin: auto;
+    text-align: center;
+    justify-content: space-between;
+
+}
+
+.membership-organisations-sec{
+    width: 250px;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+
+.national-associations-sec{
+    width: 250px; 
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+
+.clubs-sec{
+    width: 250px; 
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+
+.nextcent-sections h3{
+    font-size: 26px;
+    padding-bottom: 10px 0px;
+    color: #4D4D4D;
+}
+
+.nextcent-sections p{
+    font-size: 14px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.pixelgrade{
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+.pixelgrade-inner{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pixelgrade-img img{
+    width: 300px;
+}
+
+.pixelgrade-content{
+    width: 600px;
+}
+
+.pixelgrade-content h2{
+    color: #4D4D4D;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.pixelgrade-content p{
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.learn-more-btn{
+    background-color: #4CAF4F;
+    text-decoration: none;
+    color: #fff;
+    width: 140px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    font-size: 16px;
+   
+}
+
+.stats{
+    background-color: #F5F7FA;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    justify-content: space-between;
+}
+
+.stats-inner{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.stats-sections{
+    display: grid;
+    width: 600px;
+    grid-template-columns: auto auto;
+}
+
+.stats-content{
+    width: 410px;
+}
+.stats-content span{
+    color: #4CAF4F;
+}
+
+.stats-content h2{
+    font-weight: 600;
+    font-size: 36px;
+    color: #4D4D4D;
+}
+
+.stats-content p{
+    color: #18191F;
+    
+}
+
+.stats-sections img{
+    width: 50px;
+}
+
+.stats-sections div{
+    display: flex;
+    padding: 10px;
+}
+
+.footer{
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+.footer-inner{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-img img{
+    width: 300px;
+}
+
+.footer-content{
+    width: 600px;
+}
+
+.footer-content h2{
+    color: #4D4D4D;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.footer-content p{
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-weight: 400;
+}
+
+.tesla{
+    background-color: #F5F7FA;
+    
+}
+
+.tesla-inner{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.tesla-content{
+    width: 810px;
+}
+
+.tesla-content h4{
+    font-size: 20px;
+    color: #4CAF4F;
+    padding-top: 15px;
+    font-weight: 600;
+}
+
+.tesla-content p{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.tesla-content-footer-p{
+    color: #89939E;
+    padding-top: 15px;
+}
+
+.customers{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.right-arrow{
+    width: 24px;
+}
+
+.customers p{
+    color: #4CAF4F;
+}
+
+.column{
+    flex-direction: column;
+}
+
